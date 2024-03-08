@@ -18,6 +18,16 @@ public class breakcontinue {
             System.out.println(a);
           //this statement tells the program to skip the number 4 
         }
+        //Break and continue in while loop
+        //Break example
+        int b = 0;
+        while (b < 10) {
+        System.out.println(b);
+        b++;
+        if (b == 4) {
+            break;
+        }//this breaks the loop once i=4
+}
 
 
     }
