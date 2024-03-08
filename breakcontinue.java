@@ -26,8 +26,21 @@ public class breakcontinue {
         b++;
         if (b == 4) {
             break;
-        }//this breaks the loop once i=4
-}
+        }
+        
+        //this breaks the loop once i=4
+
+        //while continue example
+        int c = 0;
+        while (c < 10) {
+        if (c == 4) {
+            c++;
+            continue;
+        }
+        System.out.println(c);
+        c++;//same as te continue example
+        }
+        }
 
 
     }
